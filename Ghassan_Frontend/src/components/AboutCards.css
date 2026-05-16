@@ -75,25 +75,78 @@
   }
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
+/* ================= TABLET ================= */
+@media (max-width: 1279px) and (min-width: 800px) {
+  .about-cards {
+    padding: 60px 0;
+  }
+
   .about-track {
-    gap: 24px;
+    gap: 28px;
+
+    animation: aboutLoop 20s linear infinite;
   }
 
   .about-card {
-    width: 300px;
-    min-height: 360px;
+    width: 340px;
+    min-height: 320px;
 
-    padding: 30px 24px;
+    border-radius: 18px;
+
+    padding: 28px 24px;
   }
 
   .about-card h3 {
-    font-size: 34px;
+    font-size: 28px;
+
     margin-bottom: 24px;
   }
 
   .about-card p {
+    font-size: 16px;
+
+    line-height: 1.8;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 799px) {
+  .about-cards {
+    padding: 40px 0;
+
+    overflow: hidden;
+  }
+
+  .about-slider {
+    width: 100%;
+  }
+
+  .about-track {
+    gap: 18px;
+
+    animation: aboutLoop 18s linear infinite;
+  }
+
+  .about-card {
+    width: 240px;
+    min-height: 250px;
+
+    border-radius: 14px;
+
+    padding: 22px 18px;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  }
+
+  .about-card h3 {
     font-size: 18px;
+
+    margin-bottom: 14px;
+  }
+
+  .about-card p {
+    font-size: 11px;
+
+    line-height: 1.9;
   }
 }

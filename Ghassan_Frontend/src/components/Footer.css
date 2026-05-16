@@ -115,45 +115,134 @@
   text-decoration: none;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
+/* ================= TABLET ================= */
+@media (max-width: 1279px) and (min-width: 800px) {
+  .footer-divider {
+    margin: 30px auto 50px;
+  }
+
   .footer {
-    flex-direction: column;
+    gap: 80px;
 
-    align-items: center;
-    text-align: center;
-
-    gap: 60px;
-
-    padding: 0 20px 80px;
-  }
-
-  .footer-brand {
-    align-items: center;
-  }
-
-  .footer-brand h2 {
-    font-size: 30px;
-  }
-
-  .footer-brand span {
-    font-size: 18px;
+    padding: 0 40px 80px;
   }
 
   .footer-column {
-    align-items: center;
+    gap: 14px;
+
+    min-width: 120px;
   }
 
   .footer-column h3 {
-    font-size: 28px;
+    font-size: 18px;
   }
 
   .footer-column a,
   .footer-column p {
+    font-size: 14px;
+  }
+
+  .footer-brand {
+    width: 300px;
+
+    gap: 18px;
+  }
+
+  .footer-brand h2 {
     font-size: 18px;
   }
 
+  .footer-brand span {
+    font-size: 12px;
+  }
+
+  .footer-socials {
+    gap: 18px;
+
+    margin-top: 24px;
+  }
+
   .footer-socials i {
-    font-size: 34px;
+    font-size: 28px;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 799px) {
+  .footer-divider {
+    width: 88%;
+
+    margin: 25px auto 35px;
+  }
+
+  .footer {
+    flex-direction: row-reverse;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 26px;
+
+    padding: 0 14px 40px;
+
+    text-align: right;
+  }
+
+  /* BRAND */
+  .footer-brand {
+    width: 120px;
+
+    align-items: flex-end;
+
+    gap: 10px;
+  }
+
+  .footer-brand h2 {
+    font-size: 8px;
+
+    line-height: 1.7;
+  }
+
+  .footer-brand span {
+    font-size: 6px;
+
+    line-height: 1.6;
+  }
+
+  /* COLUMNS */
+  .footer-column {
+    min-width: auto;
+
+    gap: 6px;
+
+    align-items: flex-start;
+  }
+
+  .footer-column h3 {
+    font-size: 10px;
+
+    margin-bottom: 6px;
+
+    text-align: right;
+  }
+
+  .footer-column a,
+  .footer-column p {
+    font-size: 8px;
+
+    line-height: 1.7;
+  }
+
+  /* SOCIALS */
+  .footer-socials {
+    justify-content: flex-end;
+
+    gap: 10px;
+
+    margin-top: 12px;
+  }
+
+  .footer-socials i {
+    font-size: 12px;
   }
 }

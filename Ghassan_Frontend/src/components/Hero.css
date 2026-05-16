@@ -87,33 +87,89 @@
   object-fit: contain;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
+/* ================= TABLET ================= */
+@media (max-width: 1279px) and (min-width: 800px) {
   .hero {
-    padding: 70px 20px 30px;
-    min-height: 600px;
+    min-height: 620px;
 
-    background-size: cover;
+    padding: 80px 40px 30px;
+
+    background-size: 100% auto;
+  }
+
+  .hero-overlay {
+    max-width: 800px;
   }
 
   .hero h1 {
-    font-size: 36px;
-    line-height: 1.4;
+    font-size: 44px;
+
+    margin-bottom: 20px;
   }
 
   .hero-buttons {
-    flex-direction: column;
     gap: 14px;
+
+    margin-bottom: 20px;
   }
 
   .primary-btn,
   .secondary-btn {
-    width: 180px;
-    font-size: 18px;
-    padding: 10px 20px;
+    padding: 10px 24px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 799px) {
+  .hero {
+    min-height: 260px;
+
+    padding: 34px 24px 20px;
+
+    background-size: cover;
+    background-position: center;
   }
 
-  .hero-products {
-    max-width: 100%;
+  .hero-overlay {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 18px;
+
+    line-height: 1.4;
+
+    margin-bottom: 12px;
+
+    text-shadow:
+      -1px -1px 0 white,
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+
+    gap: 8px;
+
+    margin-bottom: 0;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: auto;
+
+    padding: 6px 14px;
+
+    border-radius: 8px;
+    border-width: 1.5px;
+
+    font-size: 10px;
+    font-weight: 700;
   }
 }
