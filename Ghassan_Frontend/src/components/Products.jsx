@@ -9,7 +9,7 @@ export default function Products() {
   const products = [img1, img2, img3];
 
   return (
-    <section className="products">
+    <section id="products" className="products">
       <h2>منتجاتنا</h2>
 
       <div className="products-slider">

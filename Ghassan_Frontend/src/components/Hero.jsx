@@ -6,6 +6,7 @@ import heroBg from "../assets/hero.png";
 export default function Hero() {
   return (
     <section
+      id="home"
       className="hero"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
@@ -13,8 +14,13 @@ export default function Hero() {
         <h1>مؤسسة غسان البطاطي للتجارة</h1>
 
         <div className="hero-buttons">
-          <button className="primary-btn">اتصل بنا</button>
-          <button className="secondary-btn">من نحن</button>
+          <a href="#contact" className="primary-btn">
+            اتصل بنا
+          </a>
+
+          <a href="#about" className="secondary-btn">
+            من نحن
+          </a>
         </div>
       </div>
     </section>

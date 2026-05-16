@@ -6,23 +6,23 @@ export default function Footer() {
     <>
       <div className="footer-divider"></div>
 
-      <footer className="footer">
+      <footer id="contact" className="footer">
         {/* Pages */}
         <div className="footer-column">
-          <h3>صفحاتنا</h3>
+        <h3>صفحاتنا</h3>
 
-          <a href="#">الرئيسية</a>
-          <a href="#">من نحن</a>
-          <a href="#">منتجاتنا</a>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#products">منتجاتنا</a>
         </div>
 
         {/* Contact */}
         <div className="footer-column">
-          <h3>اتصل بنا</h3>
+        <h3>اتصل بنا</h3>
 
-          <p>772192505</p>
-          <p>771555586</p>
-          <p>771776904</p>
+        <a href="tel:772192505">772192505</a>
+        <a href="tel:771555586">771555586</a>
+        <a href="tel:771776904">771776904</a>
         </div>
 
         {/* Brand */}

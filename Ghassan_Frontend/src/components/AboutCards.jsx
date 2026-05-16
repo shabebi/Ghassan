@@ -20,7 +20,7 @@ export default function AboutCards() {
   ];
 
   return (
-    <section className="about-cards">
+    <section id="about" className="about-cards">
       <div className="about-slider">
         <div className="about-track">
           {[...cards, ...cards, ...cards].map((card, index) => (

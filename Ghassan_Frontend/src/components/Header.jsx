@@ -7,9 +7,9 @@ export default function Header() {
     <header className="header">
       {/* Navigation */}
       <nav className="nav-links">
-        <a href="#">منتجاتنا</a>
-        <a href="#">من نحن</a>
-        <a href="#">الرئيسية</a>
+        <a href="#products">منتجاتنا</a>
+        <a href="#about">من نحن</a>
+        <a href="#home">الرئيسية</a>
       </nav>
 
       {/* Logo + Text */}
