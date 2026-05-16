@@ -169,80 +169,90 @@
 
 /* ================= MOBILE ================= */
 @media (max-width: 799px) {
-  .footer-divider {
-    width: 88%;
-
-    margin: 25px auto 35px;
-  }
-
   .footer {
-    flex-direction: row-reverse;
+    width: 100%;
 
-    justify-content: center;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 
-    gap: 26px;
+    align-items: flex-end;
 
-    padding: 0 14px 40px;
+    padding: 0 20px 40px;
 
-    text-align: right;
+    gap: 30px;
   }
 
   /* BRAND */
   .footer-brand {
-    width: 120px;
+    width: auto;
 
     align-items: flex-end;
+
+    text-align: right;
 
     gap: 10px;
   }
 
   .footer-brand h2 {
-    font-size: 8px;
+    font-size: 20px;
+    font-weight: 800;
 
-    line-height: 1.7;
+    text-align: right;
+
+    line-height: 1.5;
   }
 
   .footer-brand span {
-    font-size: 6px;
-
-    line-height: 1.6;
-  }
-
-  /* COLUMNS */
-  .footer-column {
-    min-width: auto;
-
-    gap: 6px;
-
-    align-items: flex-start;
-  }
-
-  .footer-column h3 {
-    font-size: 10px;
-
-    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 700;
 
     text-align: right;
-  }
 
-  .footer-column a,
-  .footer-column p {
-    font-size: 8px;
-
-    line-height: 1.7;
+    line-height: 1.5;
   }
 
   /* SOCIALS */
   .footer-socials {
+    width: auto;
+
     justify-content: flex-end;
 
-    gap: 10px;
+    margin-top: 10px;
 
-    margin-top: 12px;
+    gap: 16px;
   }
 
   .footer-socials i {
-    font-size: 12px;
+    font-size: 24px;
+  }
+
+  /* COLUMNS */
+  .footer-column {
+    width: auto;
+
+    align-items: flex-end;
+
+    text-align: right;
+
+    gap: 8px;
+  }
+
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: 700;
+
+    text-align: right;
+
+    margin-bottom: 6px;
+  }
+
+  .footer-column a,
+  .footer-column p {
+    font-size: 15px;
+    font-weight: 600;
+
+    text-align: right;
+
+    line-height: 1.7;
   }
 }
