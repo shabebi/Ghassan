@@ -11,15 +11,15 @@ export default function Hero() {
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       <div className="hero-overlay">
-        <h1>مؤسسة غسان البطاطي للتجارة</h1>
+        <h1>Ghassan Al-Batati Trading Establishment</h1>
 
         <div className="hero-buttons">
           <a href="#contact" className="primary-btn">
-            اتصل بنا
+            Contact Us
           </a>
 
           <a href="#about" className="secondary-btn">
-            من نحن
+            About Us
           </a>
         </div>
       </div>

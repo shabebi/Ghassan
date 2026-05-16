@@ -17,6 +17,8 @@
   font-weight: 800;
 
   margin-bottom: 70px;
+
+  text-align: center;
 }
 
 /* SLIDER AREA */
@@ -33,11 +35,11 @@
   display: flex;
   align-items: center;
 
-  gap: 290px; /* reduced spacing */
+  gap: 290px;
 
   width: max-content;
 
-  animation: marquee 12s linear infinite; /* faster */
+  animation: marquee 12s linear infinite;
 }
 
 /* LOGOS */
@@ -111,6 +113,8 @@
     font-size: 24px;
 
     margin-bottom: 28px;
+
+    text-align: center;
   }
 
   .brands-slider {

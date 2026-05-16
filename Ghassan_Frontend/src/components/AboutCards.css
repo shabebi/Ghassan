@@ -41,7 +41,7 @@
 
   flex-shrink: 0;
 
-  direction: rtl;
+  direction: ltr;
 }
 
 .about-card h3 {
@@ -52,7 +52,7 @@
 
   margin-bottom: 40px;
 
-  text-align: right;
+  text-align: left;
 }
 
 .about-card p {
@@ -61,7 +61,7 @@
   font-size: 22px;
   line-height: 1.8;
 
-  text-align: right;
+  text-align: left;
 }
 
 /* SMOOTH LOOP */
@@ -142,11 +142,15 @@
     font-size: 18px;
 
     margin-bottom: 14px;
+
+    text-align: left;
   }
 
   .about-card p {
     font-size: 11px;
 
     line-height: 1.9;
+
+    text-align: left;
   }
 }

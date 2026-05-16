@@ -17,6 +17,8 @@
   font-weight: 800;
 
   margin-bottom: 60px;
+
+  text-align: center;
 }
 
 /* SLIDER */
@@ -97,6 +99,8 @@
     font-size: 24px;
 
     margin-bottom: 24px;
+
+    text-align: center;
   }
 
   .products-slider {

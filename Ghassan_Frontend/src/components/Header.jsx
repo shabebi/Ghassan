@@ -7,16 +7,16 @@ export default function Header() {
     <header className="header">
       {/* Navigation */}
       <nav className="nav-links">
-        <a href="#products">منتجاتنا</a>
-        <a href="#about">من نحن</a>
-        <a href="#home">الرئيسية</a>
+        <a href="#products">Our Products</a>
+        <a href="#about">About Us</a>
+        <a href="#home">Home</a>
       </nav>
 
       {/* Logo + Text */}
       <div className="brand">
         <div className="brand-text">
-          <h1>مؤسسة غسان البطاطي للتجارة</h1>
-          <p>Ghassan Al-Batati Trading Establishment</p>
+          <h1>Ghassan Al-Batati Trading Establishment</h1>
+          <p>Trusted Quality & Reliable Trading Solutions</p>
         </div>
 
         <img

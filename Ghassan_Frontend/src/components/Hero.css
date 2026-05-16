@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 900px;
 
-  background-size: 100% auto; /* full width */
+  background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
 
@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: flex-start;
 
-  padding: 110px 64px 40px; /* lower text/buttons */
+  padding: 110px 64px 40px;
 
   position: relative;
 }
@@ -63,6 +63,12 @@
 
   cursor: pointer;
   transition: 0.2s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
 }
 
 .primary-btn {

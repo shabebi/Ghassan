@@ -4,18 +4,18 @@ import "./AboutCards.css";
 export default function AboutCards() {
   const cards = [
     {
-      title: "من نحن",
-      text: "مؤسسة غسان البطاطي للتجارة مؤسسة تسعى إلى تقديم حلول تجارية متكاملة ومبتكرة تلبي احتياجات السوق المحلية والإقليمية. نحن نعمل كجسر يربط بين الجودة العالية والتنافسية السعرية، ملتزمين بتوفير أفضل المنتجات والخدمات التي تضمن رضا عملائنا وتدعم نجاح أعمالهم.",
+      title: "Who We Are",
+      text: "Ghassan Al-Battati Trading Establishment is dedicated to providing integrated and innovative business solutions that meet the needs of both local and regional markets. We act as a bridge between high quality and competitive pricing, committed to delivering the best products and services that ensure customer satisfaction and support business success.",
     },
 
     {
-      title: "رؤيتنا",
-      text: "أن نكون الخيار الأول والشريك الأكثر موثوقية في قطاع التجارة، من خلال التميز المستمر والتطوير الدائم لخدماتنا.",
+      title: "Our Vision",
+      text: "To become the first choice and the most trusted partner in the trading sector through continuous excellence and ongoing development of our services.",
     },
 
     {
-      title: "رسالتنا",
-      text: "تقديم منتجات ذات جودة استثنائية عبر سلاسل إمداد موثوقة، مع التركيز على بناء علاقات مستدامة طويلة الأمد مع عملائنا وشركائنا قائمة على الشفافية والنزاهة.",
+      title: "Our Mission",
+      text: "To deliver products of exceptional quality through reliable supply chains, while focusing on building sustainable long-term relationships with our clients and partners based on transparency and integrity.",
     },
   ];
 

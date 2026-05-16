@@ -10,7 +10,7 @@ export default function Products() {
 
   return (
     <section id="products" className="products">
-      <h2>منتجاتنا</h2>
+      <h2>Our Products</h2>
 
       <div className="products-slider">
         <div className="products-track">
