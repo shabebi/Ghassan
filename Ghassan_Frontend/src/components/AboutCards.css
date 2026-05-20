@@ -17,9 +17,9 @@
 /* MOVING TRACK */
 .about-track {
   display: flex;
-  align-items: stretch;
+  align-items: center;
 
-  gap: 40px;
+  gap: 48px;
 
   width: max-content;
 
@@ -28,40 +28,59 @@
 
 /* CARD */
 .about-card {
-  width: 480px;
-  min-height: 420px;
-
   background: #f3f3f3;
 
   border-radius: 24px;
 
-  padding: 40px 36px;
+  padding: 48px 64px;
 
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 
   flex-shrink: 0;
 
   direction: ltr;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+
+  gap: 18px;
 }
 
+/* BIG CARD */
+.about-big {
+  width: 590px;
+}
+
+/* SMALL CARD */
+.about-small {
+  width: 420px;
+}
+
+/* TITLE */
 .about-card h3 {
-  color: #b80f1f;
-
-  font-size: 44px;
-  font-weight: 700;
-
-  margin-bottom: 40px;
-
-  text-align: left;
-}
-
-.about-card p {
   color: #111;
 
-  font-size: 22px;
-  line-height: 1.8;
+  font-size: 30px;
+  font-weight: 700;
+
+  margin: 0;
 
   text-align: left;
+}
+
+/* TEXT */
+.about-card p {
+  color: #222;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.85;
+
+  text-align: left;
+
+  margin: 0;
 }
 
 /* SMOOTH LOOP */
@@ -82,24 +101,27 @@
   }
 
   .about-track {
-    gap: 28px;
+    gap: 32px;
 
     animation: aboutLoop 20s linear infinite;
   }
 
-  .about-card {
+  .about-big {
+    width: 560px;
+  }
+
+  .about-small {
     width: 340px;
-    min-height: 320px;
+  }
 
-    border-radius: 18px;
+  .about-card {
+    border-radius: 20px;
 
-    padding: 28px 24px;
+    padding: 36px 42px;
   }
 
   .about-card h3 {
     font-size: 28px;
-
-    margin-bottom: 24px;
   }
 
   .about-card p {
@@ -122,34 +144,37 @@
   }
 
   .about-track {
-    gap: 18px;
+    gap: 20px;
 
     animation: aboutLoop 18s linear infinite;
   }
 
-  .about-card {
+  .about-big {
+    width: 360px;
+  }
+
+  .about-small {
     width: 240px;
-    min-height: 250px;
+  }
 
-    border-radius: 14px;
+  .about-card {
+    border-radius: 16px;
 
-    padding: 22px 18px;
+    padding: 24px 28px;
 
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
   }
 
   .about-card h3 {
-    font-size: 18px;
-
-    margin-bottom: 14px;
+    font-size: 22px;
 
     text-align: left;
   }
 
   .about-card p {
-    font-size: 11px;
+    font-size: 13px;
 
-    line-height: 1.9;
+    line-height: 1.8;
 
     text-align: left;
   }

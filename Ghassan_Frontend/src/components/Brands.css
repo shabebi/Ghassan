@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 
-  padding: 80px 64px 40px;
+  padding: 60px 40px 30px;
 
   overflow: hidden;
 }
@@ -13,18 +13,18 @@
 .brands h2 {
   color: #b80f1f;
 
-  font-size: 64px;
+  font-size: 52px;
   font-weight: 800;
 
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 
   text-align: center;
 }
 
 /* SLIDER AREA */
 .brands-slider {
-  width: 70%;
-  max-width: 1000px;
+  width: 75%;
+  max-width: 950px;
 
   overflow: hidden;
   position: relative;
@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
 
-  gap: 290px;
+  gap: 180px;
 
   width: max-content;
 
@@ -44,7 +44,7 @@
 
 /* LOGOS */
 .brands-track img {
-  width: 200px;
+  width: 170px;
   object-fit: contain;
 
   flex-shrink: 0;
@@ -52,12 +52,12 @@
 
 /* LINE */
 .brands-line {
-  width: 95%;
+  width: 92%;
   height: 2px;
 
   background: #2f2fa2;
 
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 /* PERFECT SMOOTH LOOP */
@@ -74,66 +74,66 @@
 /* ================= TABLET ================= */
 @media (max-width: 1279px) and (min-width: 800px) {
   .brands {
-    padding: 60px 40px 30px;
+    padding: 45px 30px 24px;
   }
 
   .brands h2 {
-    font-size: 44px;
+    font-size: 26px;
 
-    margin-bottom: 50px;
+    margin-bottom: 34px;
   }
 
   .brands-slider {
-    width: 75%;
+    width: 78%;
     max-width: 700px;
   }
 
   .brands-track {
-    gap: 180px;
+    gap: 120px;
 
     animation: marquee 10s linear infinite;
   }
 
   .brands-track img {
-    width: 140px;
+    width: 120px;
   }
 
   .brands-line {
-    margin-top: 50px;
+    margin-top: 34px;
   }
 }
 
 /* ================= MOBILE ================= */
 @media (max-width: 799px) {
   .brands {
-    padding: 40px 20px 20px;
+    padding: 32px 16px 18px;
   }
 
   .brands h2 {
-    font-size: 24px;
+    font-size: 14px;
 
-    margin-bottom: 28px;
+    margin-bottom: 22px;
 
     text-align: center;
   }
 
   .brands-slider {
-    width: 85%;
+    width: 90%;
   }
 
   .brands-track {
-    gap: 90px;
+    gap: 70px;
 
     animation: marquee 9s linear infinite;
   }
 
   .brands-track img {
-    width: 90px;
+    width: 85px;
   }
 
   .brands-line {
     width: 90%;
 
-    margin-top: 35px;
+    margin-top: 26px;
   }
 }

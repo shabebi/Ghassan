@@ -9,7 +9,7 @@ export default function Brands() {
 
   return (
     <section className="brands">
-      <h2>Our Brands</h2>
+      <h2>Trademarks</h2>
 
       <div className="brands-slider">
         <div className="brands-track">
