@@ -33,6 +33,7 @@ export default function Footer() {
         <div className="footer-column">
           <h3>Contact Us</h3>
 
+          <a href="mailto:info@ghbotrading.com">info@ghbotrading.com</a>
           <a href="tel:772192505">772192505</a>
           <a href="tel:771555586">771555586</a>
           <a href="tel:771776904">771776904</a>
